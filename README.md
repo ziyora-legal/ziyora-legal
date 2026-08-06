@@ -1,16 +1,33 @@
-## Hi there 👋
+# ZIYORA Legal
 
-<!--
-**ziyora-legal/ziyora-legal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Official legal documents for the ZIYORA application.
 
-Here are some ideas to get you started:
+## Available Documents
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Privacy Policy
+- Terms of Service
+
+## Live Website
+
+https://ziyora-legal.github.io/ziyora-legal/
+
+## Contact
+
+Email: support.ziyora@gmail.com
+
+## About
+
+This repository contains the official legal pages used by the ZIYORA application for authentication providers, app distribution, and legal compliance.
+
+These documents are intended for:
+
+- Google Authentication
+- Facebook Authentication
+- Discord Authentication
+- Supabase Authentication
+- Google Play Store Compliance
+- User Privacy and Terms
+
+---
+
+© 2026 ZIYORA. All Rights Reserved.
