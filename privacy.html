@@ -1,1 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZIYORA Privacy Policy</title>
+    <style>
+        :root {
+            --primary-color: #1a73e8;
+            --primary-hover: #1557b0;
+            --text-color: #202124;
+            --text-secondary: #5f6368;
+            --bg-color: #ffffff;
+            --section-bg: #f8f9fa;
+            --border-color: #dadce0;
+            --max-width: 900px;
+        }
 
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            line-height: 1.65;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        header {
+            border-bottom: 1px solid var(--border-color);
+            background-color: #ffffff;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 20px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+            color: var(--primary-color);
+            letter-spacing: 1px;
+            text-decoration: none;
+        }
+
+        .effective-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        main {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 40px 24px;
+        }
+
+        .title-section {
+            margin-bottom: 40px;
+            padding-bottom: 24px;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--text-color);
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: var(--text-secondary);
+        }
+
+        .toc {
+            background-color: var(--section-bg);
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 40px;
+            border: 1px solid var(--border-color);
+        }
+
+        .toc-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: var(--text-color);
+        }
+
+        .toc-list {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 10px;
+        }
+
+        .toc-list a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.2s;
+        }
+
+        .toc-list a:hover {
+            text-decoration: underline;
+            color: var(--primary-hover);
+        }
+
+        section {
+            margin-bottom: 36px;
+            scroll-margin-top: 80px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+        }
+
+        p {
+            margin-bottom: 14px;
+            font-size: 15px;
+            color: #3c4043;
+        }
+
+        ul {
+            margin-bottom: 14px;
+            padding-left: 24px;
+            font-size: 15px;
+            color: #3c4043;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight-box {
+            background-color: var(--section-bg);
+            border-left: 4px solid var(--primary-color);
+            padding: 16px 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 16px 0;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+        }
+
+        footer {
+            border-top: 1px solid var(--border-color);
+            padding: 32px 24px;
+            text-align: center;
+            font-size: 14px;
+            color: var(--text-secondary);
+            background-color: var(--section-bg);
+        }
+
+        @media (max-width: 600px) {
+            .header-container {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 8px;
+            }
+
+            main {
+                padding: 24px 16px;
+            }
+
+            h1 {
+                font-size: 26px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+            .toc-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo">ZIYORA</a>
+            <span class="effective-date">Effective Date: August 6, 2026</span>
+        </div>
+    </header>
+
+    <main>
+        <div class="title-section">
+            <h1>ZIYORA Privacy Policy</h1>
+            <p class="subtitle">Your privacy is important to us. This policy outlines how ZIYORA collects, uses, protects, and handles your personal information.</p>
+        </div>
+
+        <nav class="toc">
+            <div class="toc-title">Table of Contents</div>
+            <ol class="toc-list">
+                <li><a href="#section-1">1. Introduction</a></li>
+                <li><a href="#section-2">2. Information We Collect</a></li>
+                <li><a href="#section-3">3. Google Login</a></li>
+                <li><a href="#section-4">4. Facebook Login</a></li>
+                <li><a href="#section-5">5. Discord Login</a></li>
+                <li><a href="#section-6">6. Email & Password Login</a></li>
+                <li><a href="#section-7">7. Phone Number & Password Login</a></li>
+                <li><a href="#section-8">8. User Profile Information</a></li>
+                <li><a href="#section-9">9. User Generated Content</a></li>
+                <li><a href="#section-10">10. Messages and Communications</a></li>
+                <li><a href="#section-11">11. Cookies and Local Storage</a></li>
+                <li><a href="#section-12">12. How We Use Information</a></li>
+                <li><a href="#section-13">13. Data Security</a></li>
+                <li><a href="#section-14">14. Third Party Services</a></li>
+                <li><a href="#section-15">15. Children's Privacy</a></li>
+                <li><a href="#section-16">16. Account Deletion</a></li>
+                <li><a href="#section-17">17. Changes to this Privacy Policy</a></li>
+                <li><a href="#section-18">18. Contact Us</a></li>
+            </ol>
+        </nav>
+
+        <section id="section-1">
+            <h2>1. Introduction</h2>
+            <p>Welcome to <strong>ZIYORA</strong>. We are committed to protecting your personal data and respecting your privacy rights. This Privacy Policy describes how ZIYORA ("we," "our," or "us") collects, uses, shares, and protects information when you access or use our mobile application, website, and related services (collectively, the "Services").</p>
+            <p>By downloading, accessing, or using ZIYORA, you agree to the collection and use of information in accordance with this Privacy Policy. If you do not agree with the terms of this policy, please do not use our Services.</p>
+        </section>
+
+        <section id="section-2">
+            <h2>2. Information We Collect</h2>
+            <p>We collect several types of information from and about users of our Services, including:</p>
+            <ul>
+                <li><strong>Account Data:</strong> Information provided during registration or authentication, such as email address, phone number, and authentication tokens.</li>
+                <li><strong>Profile Data:</strong> Information you choose to add to your public or private profile, including display name, username, bio, and profile picture.</li>
+                <li><strong>User-Generated Content:</strong> Media, text, posts, comments, reactions, and interactions you upload or publish via the platform.</li>
+                <li><strong>Technical & Usage Data:</strong> IP address, device type, operating system version, app version, unique device identifiers, network state, and usage metrics.</li>
+            </ul>
+        </section>
+
+        <section id="section-3">
+            <h2>3. Google Login</h2>
+            <p>When you choose to authenticate or sign in to ZIYORA using your Google account, we process your login through secure OAuth 2.0 protocols. We request permission to access basic profile details including:</p>
+            <ul>
+                <li>Your Google profile name and full display name.</li>
+                <li>Your verified primary Google email address.</li>
+                <li>Your Google profile picture URL.</li>
+            </ul>
+            <p>We use this information solely to create your ZIYORA account, authenticate your identity, and populate your initial profile settings. We do not access your Google Drive, Contacts, Gmail messages, or any other unauthorized Google account data.</p>
+        </section>
+
+        <section id="section-4">
+            <h2>4. Facebook Login</h2>
+            <p>If you choose to log in to ZIYORA using Facebook Login (Meta Open Graph/OAuth), we request access to permissions authorized by Meta, including your basic public profile details (name, profile picture) and primary email address connected to your Facebook account.</p>
+            <p>We store your Facebook user ID solely to facilitate secure authentication and account recovery. You may revoke ZIYORA's access to your Facebook account at any time via your Facebook Apps and Websites Settings page.</p>
+        </section>
+
+        <section id="section-5">
+            <h2>5. Discord Login</h2>
+            <p>ZIYORA offers integration with Discord OAuth2 for sign-in and authentication purposes. When you authenticate via Discord, we receive access to your basic Discord user object, including your Discord username, discriminator, unique user ID, avatar hash, and verified email address.</p>
+            <p>ZIYORA does not request or access your Discord server lists, direct messages, or permission controls within your Discord servers.</p>
+        </section>
+
+        <section id="section-6">
+            <h2>6. Email & Password Login</h2>
+            <p>When registering directly with your email address and password, we collect your valid email address and an encrypted hash of your password. We never store plain-text passwords. Authentication and account security management are powered by backend infrastructure powered by Supabase with enterprise-grade encryption standard practices.</p>
+            <p>We use your email address to deliver verification codes, password reset instructions, crucial security notices, and important service announcements.</p>
+        </section>
+
+        <section id="section-7">
+            <h2>7. Phone Number & Password Login</h2>
+            <p>If you choose to register or authenticate using your phone number, we collect your mobile phone number and country code. We utilize SMS-based verification mechanisms (One-Time Password / OTP) to verify ownership of the provided phone number.</p>
+            <p>Your phone number is used exclusively for account creation, phone-based authentication, password recovery, and protection against multi-account spam abuses.</p>
+        </section>
+
+        <section id="section-8">
+            <h2>8. User Profile Information</h2>
+            <p>ZIYORA allows you to create a personalized profile. Profile information may include your display name, unique handle, avatar, biography, location (optional), and preferences. Certain profile information, such as your display name, handle, and avatar picture, may be visible to other ZIYORA users depending on your privacy configurations.</p>
+            <p>You can update, modify, or remove your optional profile details at any time through the in-app account settings.</p>
+        </section>
+
+        <section id="section-9">
+            <h2>9. User Generated Content</h2>
+            <p>ZIYORA enables users to create, upload, post, and share user-generated content (UGC), such as posts, photos, comments, audio fragments, and links. Please note that any content you publish publicly can be viewed, shared, and saved by other users on the platform.</p>
+            <p>We reserve the right to review and remove content that violates our Terms of Service, Community Guidelines, or applicable legal regulations.</p>
+        </section>
+
+        <section id="section-10">
+            <h2>10. Messages and Communications</h2>
+            <p>ZIYORA provides direct messaging and real-time social communication capabilities. We store and process message content, timestamps, media attachments, and communication metadata to enable reliable delivery, notification rendering, and conversation history backup.</p>
+            <p>Your private direct messages are inaccessible to other general users. However, automated moderation tools and safety administrators may review flagged or reported messages to enforce platform security and prevent harassment, spam, or illegal activities.</p>
+        </section>
+
+        <section id="section-11">
+            <h2>11. Cookies and Local Storage</h2>
+            <p>ZIYORA utilizes cookies, local storage, secure tokens, and similar tracking technologies to store session tokens, remember user preferences, facilitate continuous login authorization, and analyze application performance. You can manage or disable cookies through your browser settings, though doing so may limit your ability to access key features of the Services.</p>
+        </section>
+
+        <section id="section-12">
+            <h2>12. How We Use Information</h2>
+            <p>We process the information we collect for the following legitimate business purposes:</p>
+            <ul>
+                <li>To provide, operate, maintain, and enhance the ZIYORA social platform.</li>
+                <li>To authenticate user identity and prevent unauthorized or fraudulent access.</li>
+                <li>To facilitate user communication, interactive features, and content sharing.</li>
+                <li>To enforce our terms, policies, and community standards.</li>
+                <li>To monitor usage trends, diagnose technical bugs, and optimize app infrastructure.</li>
+                <li>To comply with legal, statutory, and regulatory obligations.</li>
+            </ul>
+        </section>
+
+        <section id="section-13">
+            <h2>13. Data Security</h2>
+            <p>We employ administrative, technical, and physical security measures designed to protect your personal data against unauthorized access, destruction, loss, alteration, or disclosure. All data transmissions between the application and servers are encrypted using Transport Layer Security (TLS/SSL). Database storage is protected via industry-standard Row Level Security (RLS) policies implemented through our database infrastructure (Supabase).</p>
+            <p>While we take rigorous measures to safeguard your information, no transmission over the internet or storage system can be guaranteed 100% secure.</p>
+        </section>
+
+        <section id="section-14">
+            <h2>14. Third Party Services</h2>
+            <p>ZIYORA integrates with third-party service providers to facilitate infrastructure, analytics, storage, and authentication. These services include:</p>
+            <ul>
+                <li><strong>Supabase:</strong> Authentication, real-time database, object storage, and secure serverless functions.</li>
+                <li><strong>Identity Providers:</strong> Google, Meta (Facebook), and Discord for OAuth authentication.</li>
+                <li><strong>Analytics & Push Notifications:</strong> Services used to evaluate system performance and send transaction notifications.</li>
+            </ul>
+            <p>These third parties process your data strictly in accordance with their respective privacy policies and legal agreements.</p>
+        </section>
+
+        <section id="section-15">
+            <h2>15. Children's Privacy</h2>
+            <p>ZIYORA is not intended for or directed at children under the age of 13 (or under 16 in certain jurisdictions such as the EU/EEA). We do not knowingly collect or solicit personal data from children under these age limits. If we discover that we have inadvertently collected personal data from a child under the required age, we will immediately delete that information from our servers.</p>
+        </section>
+
+        <section id="section-16">
+            <h2>16. Account Deletion</h2>
+            <p>You have the right to request the complete deletion of your ZIYORA account and all associated personal data at any time.</p>
+            <div class="highlight-box">
+                <p><strong>How to Delete Your Account:</strong> Navigate to <em>Settings &gt; Privacy &amp; Security &gt; Delete Account</em> within the ZIYORA app, or submit a formal deletion request via email to <strong>privacy@ziyora.com</strong>.</p>
+            </div>
+            <p>Upon initiating account deletion, your profile, posts, messages, and associated storage files will be permanently purged from our active databases within 30 days, except where retention is required by law or legitimate anti-fraud requirements.</p>
+        </section>
+
+        <section id="section-17">
+            <h2>17. Changes to this Privacy Policy</h2>
+            <p>We may update this Privacy Policy periodically to reflect changes in our legal obligations, platform features, or operational practices. We will notify you of material changes by posting the updated Privacy Policy on this page with a revised "Effective Date" at the top, or through prominent in-app notices.</p>
+            <p>Your continued use of ZIYORA after any updates constitutes acceptance of the revised policy.</p>
+        </section>
+
+        <section id="section-18">
+            <h2>18. Contact Us</h2>
+            <p>If you have any questions, concerns, complaints, or requests regarding this Privacy Policy or our data practices, please reach out to us at:</p>
+            <ul>
+                <li><strong>App Name:</strong> ZIYORA</li>
+                <li><strong>Email:</strong> privacy@ziyora.com</li>
+                <li><strong>Support Portal:</strong> https://ziyora.com/support</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ZIYORA Application. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
